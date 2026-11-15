@@ -9,8 +9,8 @@
 #   SHA=$(curl -sL "https://github.com/derkan/SushiTray/releases/download/v${VERSION}/SushiTray-${VERSION}.zip" | shasum -a 256 | awk '{print $1}')
 
 cask "sushitray" do
-  version "1.1.1"
-  sha256 "03a480e3d2d070db7357e0e61d4a0e27c1f215c86597bdd210d4b14fba116a22"
+  version "1.1.3"
+  sha256 "0981a18a1fc5d77c5c936bd7eb81fc13311b8be8f30451e30b3071c42668baa4"
 
   url "https://github.com/derkan/SushiTray/releases/download/v#{version}/SushiTray-#{version}.zip"
   name "SushiTray"
